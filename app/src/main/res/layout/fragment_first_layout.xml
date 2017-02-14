@@ -1,0 +1,66 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.elkholy.task_3.First_Fragment"
+    android:id="@+id/first_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:text="Name:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="normal|italic"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="5dp"
+
+
+        />
+
+    <TextView
+        android:text="Email:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_marginTop="100dp"
+        android:textSize="24sp"
+        android:textStyle="normal|italic"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="5dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/ed_mail"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="80dp"
+        android:hint="Enter your E-mail"
+        android:textColorHint="@android:color/black"
+        />
+
+    <Button
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_submit"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:onClick="click" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/ed_Name"
+        android:layout_marginLeft="80dp"
+        android:textSize="18sp"
+        android:hint="Enter your name"
+        android:textColorHint="@android:color/black" />
+</FrameLayout>
